@@ -18,7 +18,6 @@ Pod::Spec.new do |s|
 
     s.dependency 'fmt', '~> 6.2.1'
     s.dependency 'libwebp', '~> 1.2.1'
-    s.dependency 'PromisesObjC', '~> 1.2'
     s.dependency 'SDWebImage', '~> 5.11.1'
     s.dependency 'SDWebImageWebPCoder', '~> 0.8.4'
     
