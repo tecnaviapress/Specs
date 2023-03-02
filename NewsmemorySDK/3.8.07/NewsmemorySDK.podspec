@@ -17,7 +17,6 @@ Pod::Spec.new do |s|
     s.libraries = "sqlite3", "sqlite3.0", "z"
 
     s.dependency 'fmt', '~> 6.2.1'
-    s.dependency 'GoogleUtilities', '~> 7.4.1'
     s.dependency 'libwebp', '~> 1.2.1'
     s.dependency 'PromisesObjC', '~> 1.2'
     s.dependency 'SDWebImage', '~> 5.11.1'
