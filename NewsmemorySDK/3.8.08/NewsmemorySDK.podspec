@@ -15,6 +15,7 @@ Pod::Spec.new do |s|
     s.header_mappings_dir = 'Headers'
 
     s.libraries = "sqlite3", "sqlite3.0", "z"
+    s.vendored_libraries = "Libraries/**/*.a"
 
     s.dependency 'fmt', '~> 6.2.1'
     s.dependency 'libwebp', '~> 1.2.1'
