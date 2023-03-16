@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     s.source           = { git: 'git@tecnavia-repo-sdk:tecnaviapress/newsmemory-ios-sdk.git', tag: "v#{s.version}" }
   
     s.source_files = 'Headers/**/{*.h,*.modulemap}'
-    s.resources      = 'Libraries/Simulator/**/*', 'Libraries/Device/**/*', 'Other/Resources/{Newsmemory.js,*.bundle,fonts/*.ttf,fonts/*.otf}', 'Other/assets'
+    s.resources      = 'Other/Resources/{Newsmemory.js,*.bundle,fonts/*.ttf,fonts/*.otf}', 'Other/assets'
     s.platform       = :ios, '11.0'
 
     s.header_mappings_dir = 'Headers'
