@@ -43,11 +43,11 @@ Pod::Spec.new do |s|
         'OTHER_LDFLAGS' => '$(inherited) -ObjC -l"BNFMatomo" -l"BVLinearGradient" -l"DoubleConversion" -l"DynamicFonts" -l"FBReactNativeSpec" -l"Newsmemory" -l"RCT-Folly" -l"RCTTypeSafety" -l"RNCAsyncStorage" -l"RNColorMatrixImageFilters" -l"RNDateTimePicker" -l"RNDefaultPreference" -l"RNDeviceInfo" -l"RNFS" -l"RNFastImage" -l"RNGestureHandler" -l"RNIap" -l"RNOpenAppSettings" -l"RNReanimated" -l"RNSVG" -l"RNScreens" -l"RNShare" -l"RNTextSize" -l"RNVectorIcons" -l"RNVolumeController" -l"React-Core" -l"React-CoreModules" -l"React-RCTAnimation" -l"React-RCTBlob" -l"React-RCTImage" -l"React-RCTLinking" -l"React-RCTNetwork" -l"React-RCTSettings" -l"React-RCTText" -l"React-RCTVibration" -l"React-cxxreact" -l"React-jsi" -l"React-jsiexecutor" -l"React-jsinspector" -l"React-logger" -l"React-perflogger" -l"ReactCommon" -l"ReactNativeART" -l"ReactNativeDarkMode" -l"TextToSpeech" -l"Yoga" -l"c++" -l"c++abi" -l"glog" -l"iconv" -l"react-native-bridge" -l"react-native-cookies" -l"react-native-dfp" -l"react-native-geolocation" -l"react-native-html-to-pdf" -l"react-native-idle-timer" -l"react-native-image-editor" -l"react-native-image-marker" -l"react-native-mail" -l"react-native-netinfo" -l"react-native-pager-view" -l"react-native-pdf" -l"react-native-photo-view-ex" -l"react-native-print" -l"react-native-safe-area-context" -l"react-native-slider" -l"react-native-splash-screen" -l"react-native-sqlite-storage" -l"react-native-uuid-generator" -l"react-native-video" -l"react-native-webview" -l"react-native-zip-archive" -l"rn-fetch-blob" -l"sqlite3" -l"z"',
         'OTHER_SWIFT_FLAGS' => '$(inherited) -D COCOAPODS -Xcc -fmodule-map-file="${TECNAVIA_HEADERS_DIR}/BNFMatomo/BNFMatomo.modulemap" -Xcc -fmodule-map-file="${TECNAVIA_HEADERS_DIR}/RNIap/RNIap.modulemap" -Xcc -fmodule-map-file="${TECNAVIA_HEADERS_DIR}/Newsmemory/Newsmemory.modulemap" -Xcc -fmodule-map-file="${TECNAVIA_HEADERS_DIR}/React/React-Core.modulemap" -Xcc -fmodule-map-file="${TECNAVIA_HEADERS_DIR}/yoga/Yoga.modulemap"',
         'SWIFT_INCLUDE_PATHS' => '$(inherited) "${TECNAVIA_BUILD_DIR}/BNFMatomo" "${TECNAVIA_BUILD_DIR}/RNIap"',
-        'TECNAVIA_BUILD_DIR' => '${SRCROOT}/${TECNAVIA_SDK_VERSION}/Libraries',
-        'TECNAVIA_FRAMEWORKS_DIR' => '${SRCROOT}/${TECNAVIA_SDK_VERSION}/Frameworks',
-        'TECNAVIA_HEADERS_DIR' => '${PODS_ROOT}/../${TECNAVIA_SDK_VERSION}/Headers',
-        'TECNAVIA_SDK_VERSION' => 'ta-newsmemory-sdk_3908',
-        'USER_HEADER_SEARCH_PATHS' => '$(inherited) $(SRCROOT)/libwebp/src',
+        'TECNAVIA_BUILD_DIR' => '${PODS_ROOT}/${TECNAVIA_SDK_VERSION}/Libraries',
+        'TECNAVIA_FRAMEWORKS_DIR' => '${PODS_ROOT}/${TECNAVIA_SDK_VERSION}/Frameworks',
+        'TECNAVIA_HEADERS_DIR' => '${PODS_ROOT}/${TECNAVIA_SDK_VERSION}/Headers',
+        'TECNAVIA_SDK_VERSION' => 'NewsmemorySDK',
+        'USER_HEADER_SEARCH_PATHS' => '$(inherited) ${PODS_ROOT}/libwebp/src',
         'USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES' => 'YES',
 
     }
