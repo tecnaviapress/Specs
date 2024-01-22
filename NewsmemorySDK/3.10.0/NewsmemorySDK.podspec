@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
     s.dependency 'GoogleUtilities', '~> 7.11.6'
     s.dependency 'libwebp', '~> 1.2.1'
     s.dependency 'nanopb', '~> 2.30908.0'
-    s.dependency 'PromisesObjC', '~> 2.3.1'
+    s.dependency 'PromisesObjC', '~> 1.2.12'
     s.dependency 'SDWebImage', '~> 5.11.1'
     s.dependency 'SDWebImageWebPCoder', '~> 0.8.4'
     
